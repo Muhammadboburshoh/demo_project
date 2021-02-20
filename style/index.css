@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  padding-top: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-header_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__to-announce {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(52, 120, 221);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.site-heder_language-btn {
+  border: none;
+  background: none;
+  background-color: rgb(93, 93, 226);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
